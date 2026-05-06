@@ -30,8 +30,11 @@ class PaginaPrincipal extends StatelessWidget {
         title: const Text('Etec Adolpho Berezim - PAM1'),
         backgroundColor: Colors.redAccent,
       ),
+      endDrawer: const Drawer(
+        child: Center(child: Text('End Drawer'),),
+      ),
       drawer: const Drawer(
-        child: Center(child: Text('Menu lateral')),
+        child: Center(child: Text('Drawer')),
       ),
       body: Center(
         child: Column(
